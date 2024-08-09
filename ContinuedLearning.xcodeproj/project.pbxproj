@@ -11,6 +11,7 @@
 		007D747C2C64CBA400F0AF18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D747B2C64CBA400F0AF18 /* ContentView.swift */; };
 		007D747E2C64CBA500F0AF18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007D747D2C64CBA500F0AF18 /* Assets.xcassets */; };
 		007D74812C64CBA500F0AF18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007D74802C64CBA500F0AF18 /* Preview Assets.xcassets */; };
+		007D74882C64CF6100F0AF18 /* LongPressGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D74872C64CF6100F0AF18 /* LongPressGestureBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		007D747B2C64CBA400F0AF18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		007D747D2C64CBA500F0AF18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		007D74802C64CBA500F0AF18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		007D74872C64CF6100F0AF18 /* LongPressGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				007D74792C64CBA400F0AF18 /* ContinuedLearningApp.swift */,
 				007D747B2C64CBA400F0AF18 /* ContentView.swift */,
+				007D74872C64CF6100F0AF18 /* LongPressGestureBootcamp.swift */,
 				007D747D2C64CBA500F0AF18 /* Assets.xcassets */,
 				007D747F2C64CBA500F0AF18 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				007D747C2C64CBA400F0AF18 /* ContentView.swift in Sources */,
 				007D747A2C64CBA400F0AF18 /* ContinuedLearningApp.swift in Sources */,
+				007D74882C64CF6100F0AF18 /* LongPressGestureBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
