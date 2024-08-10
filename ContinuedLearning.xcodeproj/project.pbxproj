@@ -7,20 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		005DB19F2C662EA8007B6362 /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005DB19E2C662EA8007B6362 /* MagnificationGestureBootcamp.swift */; };
 		007D747A2C64CBA400F0AF18 /* ContinuedLearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D74792C64CBA400F0AF18 /* ContinuedLearningApp.swift */; };
 		007D747C2C64CBA400F0AF18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D747B2C64CBA400F0AF18 /* ContentView.swift */; };
 		007D747E2C64CBA500F0AF18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007D747D2C64CBA500F0AF18 /* Assets.xcassets */; };
 		007D74812C64CBA500F0AF18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007D74802C64CBA500F0AF18 /* Preview Assets.xcassets */; };
 		007D74882C64CF6100F0AF18 /* LongPressGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007D74872C64CF6100F0AF18 /* LongPressGestureBootcamp.swift */; };
+		008096A42C676ED600D8FB68 /* RotationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008096A32C676ED600D8FB68 /* RotationGestureBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		005DB19E2C662EA8007B6362 /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
 		007D74762C64CBA400F0AF18 /* ContinuedLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContinuedLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		007D74792C64CBA400F0AF18 /* ContinuedLearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuedLearningApp.swift; sourceTree = "<group>"; };
 		007D747B2C64CBA400F0AF18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		007D747D2C64CBA500F0AF18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		007D74802C64CBA500F0AF18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		007D74872C64CF6100F0AF18 /* LongPressGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureBootcamp.swift; sourceTree = "<group>"; };
+		008096A32C676ED600D8FB68 /* RotationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 				007D74792C64CBA400F0AF18 /* ContinuedLearningApp.swift */,
 				007D747B2C64CBA400F0AF18 /* ContentView.swift */,
 				007D74872C64CF6100F0AF18 /* LongPressGestureBootcamp.swift */,
+				005DB19E2C662EA8007B6362 /* MagnificationGestureBootcamp.swift */,
+				008096A32C676ED600D8FB68 /* RotationGestureBootcamp.swift */,
 				007D747D2C64CBA500F0AF18 /* Assets.xcassets */,
 				007D747F2C64CBA500F0AF18 /* Preview Content */,
 			);
@@ -142,7 +148,9 @@
 			files = (
 				007D747C2C64CBA400F0AF18 /* ContentView.swift in Sources */,
 				007D747A2C64CBA400F0AF18 /* ContinuedLearningApp.swift in Sources */,
+				005DB19F2C662EA8007B6362 /* MagnificationGestureBootcamp.swift in Sources */,
 				007D74882C64CF6100F0AF18 /* LongPressGestureBootcamp.swift in Sources */,
+				008096A42C676ED600D8FB68 /* RotationGestureBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
