@@ -11,9 +11,7 @@ import SwiftUI
 struct ContinuedLearningApp: App {
     var body: some Scene {
         WindowGroup {
-//            ContentView()
-//            MagnificationGestureBootcamp()
-            RotationGestureBootcamp()
+            HapticBootcamp()
         }
     }
 }
