@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001FA8E72C7B3F9100BD8BD0 /* DownloadWithEdcapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001FA8E62C7B3F9100BD8BD0 /* DownloadWithEdcapingBootcamp.swift */; };
 		00474CEC2C7938E70018EB4D /* TestSemaphore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00474CEB2C7938E70018EB4D /* TestSemaphore.swift */; };
 		005160972C74FE2200B96BC6 /* BackgroundThreadBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005160962C74FE2200B96BC6 /* BackgroundThreadBootcamp.swift */; };
 		005DB19F2C662EA8007B6362 /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005DB19E2C662EA8007B6362 /* MagnificationGestureBootcamp.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		001FA8E62C7B3F9100BD8BD0 /* DownloadWithEdcapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEdcapingBootcamp.swift; sourceTree = "<group>"; };
 		00474CEB2C7938E70018EB4D /* TestSemaphore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSemaphore.swift; sourceTree = "<group>"; };
 		005160962C74FE2200B96BC6 /* BackgroundThreadBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundThreadBootcamp.swift; sourceTree = "<group>"; };
 		005DB19E2C662EA8007B6362 /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
@@ -91,11 +93,11 @@
 				007D747B2C64CBA400F0AF18 /* ContentView.swift */,
 				007D74872C64CF6100F0AF18 /* LongPressGestureBootcamp.swift */,
 				005DB19E2C662EA8007B6362 /* MagnificationGestureBootcamp.swift */,
+				001FA8E62C7B3F9100BD8BD0 /* DownloadWithEdcapingBootcamp.swift */,
 				008096A32C676ED600D8FB68 /* RotationGestureBootcamp.swift */,
 				008096A52C67744B00D8FB68 /* DragGestureBootcamp.swift */,
 				008096A72C67BBE500D8FB68 /* DragGestureBootcamp2.swift */,
 				007D747D2C64CBA500F0AF18 /* Assets.xcassets */,
-				007D747F2C64CBA500F0AF18 /* Preview Content */,
 				00C9011D2C6BC9C1001987C8 /* ScrollViewReaderBootcamp.swift */,
 				00C9011F2C6BD014001987C8 /* GeometryReaderBootcamp.swift */,
 				00C271DD2C6CAC4C00B613DF /* MultiSheetBootcamp.swift */,
@@ -105,6 +107,7 @@
 				00474CEB2C7938E70018EB4D /* TestSemaphore.swift */,
 				0091F7792C6F5BE600626571 /* HapticBootcamp.swift */,
 				0091F77B2C6F710200626571 /* HashableBootcamp.swift */,
+				007D747F2C64CBA500F0AF18 /* Preview Content */,
 				0091F7702C6F575600626571 /* Sounds */,
 				00F15BEF2C79E27300A4D133 /* CodableBootcamp.swift */,
 			);
@@ -211,6 +214,7 @@
 				005160972C74FE2200B96BC6 /* BackgroundThreadBootcamp.swift in Sources */,
 				0091F77C2C6F710200626571 /* HashableBootcamp.swift in Sources */,
 				0091F77A2C6F5BE600626571 /* HapticBootcamp.swift in Sources */,
+				001FA8E72C7B3F9100BD8BD0 /* DownloadWithEdcapingBootcamp.swift in Sources */,
 				00C9011E2C6BC9C1001987C8 /* ScrollViewReaderBootcamp.swift in Sources */,
 				00F15BF02C79E27300A4D133 /* CodableBootcamp.swift in Sources */,
 				007D747A2C64CBA400F0AF18 /* ContinuedLearningApp.swift in Sources */,

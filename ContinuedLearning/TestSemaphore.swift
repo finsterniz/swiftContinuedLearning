@@ -24,12 +24,15 @@ struct TestSemaphore: View {
                     print("Task \(i) finished")
                 }
             }
+            // sequence could be 132 or 231
 
             group.notify(queue: .main) {
                 print("All tasks completed")
             }
         }
         
+        
+        // in the same time execute only two of the tasks
         Button("Button2") {
             let semaphore = DispatchSemaphore(value: 2) // Limit to 2 concurrent tasks
 
