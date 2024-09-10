@@ -64,6 +64,7 @@ class CacheViewModel: ObservableObject{
             cachedImage = image
             infoMessage = "Got image from Cache"
         }else{
+            cachedImage = nil
             infoMessage = "Image not found in Cache"
         }
     }

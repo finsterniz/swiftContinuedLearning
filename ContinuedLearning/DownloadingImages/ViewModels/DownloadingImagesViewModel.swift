@@ -5,14 +5,25 @@
 //  Created by a on 06.09.24.
 //
 
-import SwiftUI
+import Foundation
+import Combine
 
-struct DownloadingImagesViewModel: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+class DownloadingImagesViewModel: ObservableObject {
+    
+    @Published var dataArray: [PhotoModel] = []
+    
+    let dataService = PhotoModelDataService.instance
+    
+    var cancellables: Set<AnyCancellable> = []
+    
+    init(){
+        addSubscribers()
     }
-}
-
-#Preview {
-    DownloadingImagesViewModel()
+    
+    func addSubscribers(){
+        dataService.$photoModel
+            .sink { [weak self] returnedPhotoModels in
+                self?.dataArray = returnedPhotoModels
+            }.store(in: &cancellables)
+    }
 }

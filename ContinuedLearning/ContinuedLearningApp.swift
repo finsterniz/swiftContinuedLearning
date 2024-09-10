@@ -11,7 +11,8 @@ import SwiftUI
 struct ContinuedLearningApp: App {
     var body: some Scene {
         WindowGroup {
-            DownloadWithEdcapingBootcamp()
+//            DownloadWithEdcapingBootcamp()
+            DownloadingImagesBootcamp()
         }
     }
 }
