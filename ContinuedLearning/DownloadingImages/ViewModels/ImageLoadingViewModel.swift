@@ -29,6 +29,7 @@ class ImageLoadingViewModel: ObservableObject{
     func getImage(){
         if let savedImage = manager.get(key: imageKey){
             image = savedImage
+            isLoading = false
             print("Getting saved image")
         }else{
             print("Downloading Image Now!")

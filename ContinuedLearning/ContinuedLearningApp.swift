@@ -12,7 +12,7 @@ struct ContinuedLearningApp: App {
     var body: some Scene {
         WindowGroup {
 //            DownloadWithEdcapingBootcamp()
-            DownloadingImagesBootcamp()
+            AccessibilityColorBootcamp()
         }
     }
 }
