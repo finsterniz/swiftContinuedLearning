@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0015AE8D2C973C85000F3067 /* ScrollViewPagingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0015AE8C2C973C85000F3067 /* ScrollViewPagingBootcamp.swift */; };
 		001BC24C2C91E3210011BACF /* AccessibilityTextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001BC24B2C91E3210011BACF /* AccessibilityTextBootcamp.swift */; };
 		001FA8E72C7B3F9100BD8BD0 /* DownloadWithEdcapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001FA8E62C7B3F9100BD8BD0 /* DownloadWithEdcapingBootcamp.swift */; };
 		003C74502C904ACA00E1BF78 /* PhotoModelCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003C744F2C904ACA00E1BF78 /* PhotoModelCacheManager.swift */; };
@@ -49,6 +50,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0015AE8C2C973C85000F3067 /* ScrollViewPagingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPagingBootcamp.swift; sourceTree = "<group>"; };
 		001BC24B2C91E3210011BACF /* AccessibilityTextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityTextBootcamp.swift; sourceTree = "<group>"; };
 		001FA8E62C7B3F9100BD8BD0 /* DownloadWithEdcapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEdcapingBootcamp.swift; sourceTree = "<group>"; };
 		003C744F2C904ACA00E1BF78 /* PhotoModelCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelCacheManager.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 				008096A32C676ED600D8FB68 /* RotationGestureBootcamp.swift */,
 				008096A52C67744B00D8FB68 /* DragGestureBootcamp.swift */,
 				008096A72C67BBE500D8FB68 /* DragGestureBootcamp2.swift */,
+				0015AE8C2C973C85000F3067 /* ScrollViewPagingBootcamp.swift */,
 				007D747D2C64CBA500F0AF18 /* Assets.xcassets */,
 				00C9011D2C6BC9C1001987C8 /* ScrollViewReaderBootcamp.swift */,
 				00C9011F2C6BD014001987C8 /* GeometryReaderBootcamp.swift */,
@@ -314,6 +317,7 @@
 				001FA8E72C7B3F9100BD8BD0 /* DownloadWithEdcapingBootcamp.swift in Sources */,
 				00C9011E2C6BC9C1001987C8 /* ScrollViewReaderBootcamp.swift in Sources */,
 				006DF3F02C8625E4007B900C /* FileManagerBootcamp.swift in Sources */,
+				0015AE8D2C973C85000F3067 /* ScrollViewPagingBootcamp.swift in Sources */,
 				005C23672C8B339900CDFCFE /* DownloadedImagesRow.swift in Sources */,
 				00F15BF02C79E27300A4D133 /* CodableBootcamp.swift in Sources */,
 				007D747A2C64CBA400F0AF18 /* ContinuedLearningApp.swift in Sources */,
