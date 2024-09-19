@@ -47,6 +47,7 @@
 		00C901202C6BD014001987C8 /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C9011F2C6BD014001987C8 /* GeometryReaderBootcamp.swift */; };
 		00CD28E32C9343BF004B0BD0 /* AccessibilityColorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CD28E22C9343BF004B0BD0 /* AccessibilityColorBootcamp.swift */; };
 		00F15BF02C79E27300A4D133 /* CodableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F15BEF2C79E27300A4D133 /* CodableBootcamp.swift */; };
+		00FC06C82C9AD3F90051BF03 /* KeypathsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FC06C72C9AD3F90051BF03 /* KeypathsBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -91,6 +92,7 @@
 		00C9011F2C6BD014001987C8 /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
 		00CD28E22C9343BF004B0BD0 /* AccessibilityColorBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityColorBootcamp.swift; sourceTree = "<group>"; };
 		00F15BEF2C79E27300A4D133 /* CodableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBootcamp.swift; sourceTree = "<group>"; };
+		00FC06C72C9AD3F90051BF03 /* KeypathsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypathsBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 				008096A52C67744B00D8FB68 /* DragGestureBootcamp.swift */,
 				008096A72C67BBE500D8FB68 /* DragGestureBootcamp2.swift */,
 				0015AE8C2C973C85000F3067 /* ScrollViewPagingBootcamp.swift */,
+				00FC06C72C9AD3F90051BF03 /* KeypathsBootcamp.swift */,
 				007D747D2C64CBA500F0AF18 /* Assets.xcassets */,
 				00C9011D2C6BC9C1001987C8 /* ScrollViewReaderBootcamp.swift */,
 				00C9011F2C6BD014001987C8 /* GeometryReaderBootcamp.swift */,
@@ -314,6 +317,7 @@
 				0091F77C2C6F710200626571 /* HashableBootcamp.swift in Sources */,
 				0091F77A2C6F5BE600626571 /* HapticBootcamp.swift in Sources */,
 				005C235F2C8B1ED600CDFCFE /* DownloadingImagesBootcamp.swift in Sources */,
+				00FC06C82C9AD3F90051BF03 /* KeypathsBootcamp.swift in Sources */,
 				001FA8E72C7B3F9100BD8BD0 /* DownloadWithEdcapingBootcamp.swift in Sources */,
 				00C9011E2C6BC9C1001987C8 /* ScrollViewReaderBootcamp.swift in Sources */,
 				006DF3F02C8625E4007B900C /* FileManagerBootcamp.swift in Sources */,
