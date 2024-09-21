@@ -41,6 +41,9 @@
 		0091F77A2C6F5BE600626571 /* HapticBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0091F7792C6F5BE600626571 /* HapticBootcamp.swift */; };
 		0091F77C2C6F710200626571 /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0091F77B2C6F710200626571 /* HashableBootcamp.swift */; };
 		0091F77E2C6F755500626571 /* ArrayBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0091F77D2C6F755500626571 /* ArrayBootcamp.swift */; };
+		00B189622C9ECBF10026E20D /* GenSeturateColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B189612C9ECBF10026E20D /* GenSeturateColor.swift */; };
+		00B189652C9F56A90026E20D /* KeychainSwiftBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B189642C9F56A90026E20D /* KeychainSwiftBootcamp.swift */; };
+		00B189682C9F5E5F0026E20D /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 00B189672C9F5E5F0026E20D /* KeychainSwift */; };
 		00C271DE2C6CAC4C00B613DF /* MultiSheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C271DD2C6CAC4C00B613DF /* MultiSheetBootcamp.swift */; };
 		00C271E02C6CC5F300B613DF /* MaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C271DF2C6CC5F300B613DF /* MaskBootcamp.swift */; };
 		00C9011E2C6BC9C1001987C8 /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C9011D2C6BC9C1001987C8 /* ScrollViewReaderBootcamp.swift */; };
@@ -86,6 +89,8 @@
 		0091F7792C6F5BE600626571 /* HapticBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticBootcamp.swift; sourceTree = "<group>"; };
 		0091F77B2C6F710200626571 /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
 		0091F77D2C6F755500626571 /* ArrayBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayBootcamp.swift; sourceTree = "<group>"; };
+		00B189612C9ECBF10026E20D /* GenSeturateColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenSeturateColor.swift; sourceTree = "<group>"; };
+		00B189642C9F56A90026E20D /* KeychainSwiftBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainSwiftBootcamp.swift; sourceTree = "<group>"; };
 		00C271DD2C6CAC4C00B613DF /* MultiSheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSheetBootcamp.swift; sourceTree = "<group>"; };
 		00C271DF2C6CC5F300B613DF /* MaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskBootcamp.swift; sourceTree = "<group>"; };
 		00C9011D2C6BC9C1001987C8 /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
@@ -100,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00B189682C9F5E5F0026E20D /* KeychainSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +191,7 @@
 				008096A72C67BBE500D8FB68 /* DragGestureBootcamp2.swift */,
 				0015AE8C2C973C85000F3067 /* ScrollViewPagingBootcamp.swift */,
 				00FC06C72C9AD3F90051BF03 /* KeypathsBootcamp.swift */,
+				00B189612C9ECBF10026E20D /* GenSeturateColor.swift */,
 				007D747D2C64CBA500F0AF18 /* Assets.xcassets */,
 				00C9011D2C6BC9C1001987C8 /* ScrollViewReaderBootcamp.swift */,
 				00C9011F2C6BD014001987C8 /* GeometryReaderBootcamp.swift */,
@@ -200,6 +207,7 @@
 				00CD28E22C9343BF004B0BD0 /* AccessibilityColorBootcamp.swift */,
 				0061A2502C957AE500E63692 /* AlignmentGuideBootcamp.swift */,
 				0061A2522C95A56B00E63692 /* VisualEffectBootcamp.swift */,
+				00B189632C9F56960026E20D /* Keychains */,
 				005C23592C8B1E9100CDFCFE /* DownloadingImages */,
 				007D747F2C64CBA500F0AF18 /* Preview Content */,
 				0091F7702C6F575600626571 /* Sounds */,
@@ -226,6 +234,14 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
+		00B189632C9F56960026E20D /* Keychains */ = {
+			isa = PBXGroup;
+			children = (
+				00B189642C9F56A90026E20D /* KeychainSwiftBootcamp.swift */,
+			);
+			path = Keychains;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -242,6 +258,9 @@
 			dependencies = (
 			);
 			name = ContinuedLearning;
+			packageProductDependencies = (
+				00B189672C9F5E5F0026E20D /* KeychainSwift */,
+			);
 			productName = ContinuedLearning;
 			productReference = 007D74762C64CBA400F0AF18 /* ContinuedLearning.app */;
 			productType = "com.apple.product-type.application";
@@ -270,6 +289,9 @@
 				Base,
 			);
 			mainGroup = 007D746D2C64CBA400F0AF18;
+			packageReferences = (
+				00B189662C9F5E5F0026E20D /* XCRemoteSwiftPackageReference "keychain-swift" */,
+			);
 			productRefGroup = 007D74772C64CBA400F0AF18 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -301,6 +323,7 @@
 				0091F76F2C6F54BE00626571 /* SoundsBootcamp.swift in Sources */,
 				005C23692C8B349E00CDFCFE /* DownloadingImageView.swift in Sources */,
 				00C271DE2C6CAC4C00B613DF /* MultiSheetBootcamp.swift in Sources */,
+				00B189622C9ECBF10026E20D /* GenSeturateColor.swift in Sources */,
 				00C271E02C6CC5F300B613DF /* MaskBootcamp.swift in Sources */,
 				003C74522C904BC500E1BF78 /* PhotoModelFileManager.swift in Sources */,
 				00CD28E32C9343BF004B0BD0 /* AccessibilityColorBootcamp.swift in Sources */,
@@ -311,6 +334,7 @@
 				005C23652C8B238100CDFCFE /* PhotoModelDataService.swift in Sources */,
 				005C23612C8B213100CDFCFE /* PhotoModel.swift in Sources */,
 				008096A62C67744B00D8FB68 /* DragGestureBootcamp.swift in Sources */,
+				00B189652C9F56A90026E20D /* KeychainSwiftBootcamp.swift in Sources */,
 				007D747C2C64CBA400F0AF18 /* ContentView.swift in Sources */,
 				005160972C74FE2200B96BC6 /* BackgroundThreadBootcamp.swift in Sources */,
 				005C236B2C8B352A00CDFCFE /* ImageLoadingViewModel.swift in Sources */,
@@ -540,6 +564,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		00B189662C9F5E5F0026E20D /* XCRemoteSwiftPackageReference "keychain-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/keychain-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 24.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		00B189672C9F5E5F0026E20D /* KeychainSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 00B189662C9F5E5F0026E20D /* XCRemoteSwiftPackageReference "keychain-swift" */;
+			productName = KeychainSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 007D746E2C64CBA400F0AF18 /* Project object */;
 }
