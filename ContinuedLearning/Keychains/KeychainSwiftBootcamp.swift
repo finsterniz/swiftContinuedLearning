@@ -43,21 +43,63 @@ extension EnvironmentValues{
     }
 }
 
+@propertyWrapper
+struct KeychainStorage: DynamicProperty{
+    @State private var newValue: String
+    let key: String
+    let keychain: KeychainManager
+    
+    var wrappedValue: String{
+        get{
+            newValue
+        }
+        nonmutating set{
+            save(newValue: newValue)
+        }
+    }
+    
+    var projectValue: Binding<String>{
+        Binding {
+            wrappedValue
+        } set: { newValue in
+            wrappedValue = newValue
+        }
+    }
+    
+    // 属性包装器必须有wrappedValue
+    init(wrappedValue: String, _ key: String) {
+//        self.newValue = newValue
+        self.key = key
+        self.keychain = KeychainManager()
+        
+        self._newValue = State(initialValue: keychain.get(key: key) ?? wrappedValue)
+        print("Sucessful read")
+    }
+    
+    func save(newValue: String){
+        keychain.set(newValue, key: key)
+        self.newValue = newValue
+        print("Sucessful Saved")
+    }
+}
+
 struct KeychainSwiftBootcamp: View {
     
-    @State private var userPassword: String = ""
-    @Environment(\.keychain) var keychain
+//    @State private var userPassword: String = ""
+//    @Environment(\.keychain) var keychain
+    @KeychainStorage("user_password3") var userPassword: String = "ha"
     
     var body: some View {
         Button(action: {
-            let password = "abc"
-            keychain.set(password, key: "newPassword")
+//            let password = "abc"
+//            keychain.set(password, key: "newPassword")
+            userPassword = "abc1"
         }, label: {
             Text(userPassword.isEmpty ? "no password": userPassword)
         })
-        .onAppear(perform: {
-            userPassword = keychain.get(key: "newPassword") ?? ""
-        })
+//        .onAppear(perform: {
+//            userPassword = keychain.get(key: "newPassword") ?? ""
+//        })
     }
 }
 
