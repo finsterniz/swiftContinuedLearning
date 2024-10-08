@@ -13,6 +13,8 @@
 		003C74502C904ACA00E1BF78 /* PhotoModelCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003C744F2C904ACA00E1BF78 /* PhotoModelCacheManager.swift */; };
 		003C74522C904BC500E1BF78 /* PhotoModelFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003C74512C904BC500E1BF78 /* PhotoModelFileManager.swift */; };
 		0042FB952C7F521C0058549D /* CountdownExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0042FB942C7F521C0058549D /* CountdownExample.swift */; };
+		0043F1AF2CB1EA1700D8274B /* MatchedGeometryEffectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0043F1AE2CB1EA1700D8274B /* MatchedGeometryEffectBootcamp.swift */; };
+		0043F1B12CB1F11700D8274B /* CustomShapesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0043F1B02CB1F11700D8274B /* CustomShapesBootcamp.swift */; };
 		00474CEC2C7938E70018EB4D /* TestSemaphore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00474CEB2C7938E70018EB4D /* TestSemaphore.swift */; };
 		004894EC2C8771D200528BC9 /* CacheBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004894EB2C8771D200528BC9 /* CacheBootcamp.swift */; };
 		004C00C32CAC84E30022B806 /* AnyTransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004C00C22CAC84E30022B806 /* AnyTransitionBootcamp.swift */; };
@@ -36,6 +38,7 @@
 		008096A42C676ED600D8FB68 /* RotationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008096A32C676ED600D8FB68 /* RotationGestureBootcamp.swift */; };
 		008096A62C67744B00D8FB68 /* DragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008096A52C67744B00D8FB68 /* DragGestureBootcamp.swift */; };
 		008096A82C67BBE500D8FB68 /* DragGestureBootcamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008096A72C67BBE500D8FB68 /* DragGestureBootcamp2.swift */; };
+		0084244E2CB538AE00C34AF1 /* CustomCurvesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0084244D2CB538AE00C34AF1 /* CustomCurvesBootcamp.swift */; };
 		0091F76F2C6F54BE00626571 /* SoundsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0091F76E2C6F54BE00626571 /* SoundsBootcamp.swift */; };
 		0091F7722C6F577800626571 /* Badum-tss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0091F7712C6F577800626571 /* Badum-tss.mp3 */; };
 		0091F7782C6F57ED00626571 /* Tada-sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0091F7772C6F57ED00626571 /* Tada-sound.mp3 */; };
@@ -62,6 +65,8 @@
 		003C744F2C904ACA00E1BF78 /* PhotoModelCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelCacheManager.swift; sourceTree = "<group>"; };
 		003C74512C904BC500E1BF78 /* PhotoModelFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModelFileManager.swift; sourceTree = "<group>"; };
 		0042FB942C7F521C0058549D /* CountdownExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownExample.swift; sourceTree = "<group>"; };
+		0043F1AE2CB1EA1700D8274B /* MatchedGeometryEffectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectBootcamp.swift; sourceTree = "<group>"; };
+		0043F1B02CB1F11700D8274B /* CustomShapesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapesBootcamp.swift; sourceTree = "<group>"; };
 		00474CEB2C7938E70018EB4D /* TestSemaphore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSemaphore.swift; sourceTree = "<group>"; };
 		004894EB2C8771D200528BC9 /* CacheBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheBootcamp.swift; sourceTree = "<group>"; };
 		004C00C22CAC84E30022B806 /* AnyTransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionBootcamp.swift; sourceTree = "<group>"; };
@@ -86,6 +91,7 @@
 		008096A32C676ED600D8FB68 /* RotationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureBootcamp.swift; sourceTree = "<group>"; };
 		008096A52C67744B00D8FB68 /* DragGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp.swift; sourceTree = "<group>"; };
 		008096A72C67BBE500D8FB68 /* DragGestureBootcamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp2.swift; sourceTree = "<group>"; };
+		0084244D2CB538AE00C34AF1 /* CustomCurvesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCurvesBootcamp.swift; sourceTree = "<group>"; };
 		0091F76E2C6F54BE00626571 /* SoundsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsBootcamp.swift; sourceTree = "<group>"; };
 		0091F7712C6F577800626571 /* Badum-tss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Badum-tss.mp3"; sourceTree = "<group>"; };
 		0091F7772C6F57ED00626571 /* Tada-sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Tada-sound.mp3"; sourceTree = "<group>"; };
@@ -213,6 +219,9 @@
 				0061A2522C95A56B00E63692 /* VisualEffectBootcamp.swift */,
 				009D9F602CA60589007F1C01 /* ButtonStyleBootcamp.swift */,
 				004C00C22CAC84E30022B806 /* AnyTransitionBootcamp.swift */,
+				0043F1AE2CB1EA1700D8274B /* MatchedGeometryEffectBootcamp.swift */,
+				0043F1B02CB1F11700D8274B /* CustomShapesBootcamp.swift */,
+				0084244D2CB538AE00C34AF1 /* CustomCurvesBootcamp.swift */,
 				00B189632C9F56960026E20D /* Keychains */,
 				005C23592C8B1E9100CDFCFE /* DownloadingImages */,
 				007D747F2C64CBA500F0AF18 /* Preview Content */,
@@ -338,6 +347,8 @@
 				00474CEC2C7938E70018EB4D /* TestSemaphore.swift in Sources */,
 				004C00C32CAC84E30022B806 /* AnyTransitionBootcamp.swift in Sources */,
 				004894EC2C8771D200528BC9 /* CacheBootcamp.swift in Sources */,
+				0043F1AF2CB1EA1700D8274B /* MatchedGeometryEffectBootcamp.swift in Sources */,
+				0043F1B12CB1F11700D8274B /* CustomShapesBootcamp.swift in Sources */,
 				003C74502C904ACA00E1BF78 /* PhotoModelCacheManager.swift in Sources */,
 				005C23652C8B238100CDFCFE /* PhotoModelDataService.swift in Sources */,
 				005C23612C8B213100CDFCFE /* PhotoModel.swift in Sources */,
@@ -361,6 +372,7 @@
 				00C901202C6BD014001987C8 /* GeometryReaderBootcamp.swift in Sources */,
 				005C23632C8B21F000CDFCFE /* DownloadingImagesViewModel.swift in Sources */,
 				0061A2532C95A56B00E63692 /* VisualEffectBootcamp.swift in Sources */,
+				0084244E2CB538AE00C34AF1 /* CustomCurvesBootcamp.swift in Sources */,
 				007D74882C64CF6100F0AF18 /* LongPressGestureBootcamp.swift in Sources */,
 				0061A2512C957AE500E63692 /* AlignmentGuideBootcamp.swift in Sources */,
 				001BC24C2C91E3210011BACF /* AccessibilityTextBootcamp.swift in Sources */,
