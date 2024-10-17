@@ -48,6 +48,7 @@
 		0091F77C2C6F710200626571 /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0091F77B2C6F710200626571 /* HashableBootcamp.swift */; };
 		0091F77E2C6F755500626571 /* ArrayBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0091F77D2C6F755500626571 /* ArrayBootcamp.swift */; };
 		009D9F612CA60589007F1C01 /* ButtonStyleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009D9F602CA60589007F1C01 /* ButtonStyleBootcamp.swift */; };
+		00A9D43F2CC11E9000FC1F7B /* PreferenceKeyBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A9D43E2CC11E9000FC1F7B /* PreferenceKeyBootcamp.swift */; };
 		00B189622C9ECBF10026E20D /* GenSeturateColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B189612C9ECBF10026E20D /* GenSeturateColor.swift */; };
 		00B189652C9F56A90026E20D /* KeychainSwiftBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B189642C9F56A90026E20D /* KeychainSwiftBootcamp.swift */; };
 		00B189682C9F5E5F0026E20D /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 00B189672C9F5E5F0026E20D /* KeychainSwift */; };
@@ -104,6 +105,7 @@
 		0091F77B2C6F710200626571 /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
 		0091F77D2C6F755500626571 /* ArrayBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayBootcamp.swift; sourceTree = "<group>"; };
 		009D9F602CA60589007F1C01 /* ButtonStyleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBootcamp.swift; sourceTree = "<group>"; };
+		00A9D43E2CC11E9000FC1F7B /* PreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		00B189612C9ECBF10026E20D /* GenSeturateColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenSeturateColor.swift; sourceTree = "<group>"; };
 		00B189642C9F56A90026E20D /* KeychainSwiftBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainSwiftBootcamp.swift; sourceTree = "<group>"; };
 		00C271DD2C6CAC4C00B613DF /* MultiSheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSheetBootcamp.swift; sourceTree = "<group>"; };
@@ -231,6 +233,7 @@
 				0043F1AE2CB1EA1700D8274B /* MatchedGeometryEffectBootcamp.swift */,
 				0043F1B02CB1F11700D8274B /* CustomShapesBootcamp.swift */,
 				0084244D2CB538AE00C34AF1 /* CustomCurvesBootcamp.swift */,
+				00A9D43E2CC11E9000FC1F7B /* PreferenceKeyBootcamp.swift */,
 				00B189632C9F56960026E20D /* Keychains */,
 				005C23592C8B1E9100CDFCFE /* DownloadingImages */,
 				007D747F2C64CBA500F0AF18 /* Preview Content */,
@@ -379,6 +382,7 @@
 				00F15BF02C79E27300A4D133 /* CodableBootcamp.swift in Sources */,
 				007D747A2C64CBA400F0AF18 /* ContinuedLearningApp.swift in Sources */,
 				005DB19F2C662EA8007B6362 /* MagnificationGestureBootcamp.swift in Sources */,
+				00A9D43F2CC11E9000FC1F7B /* PreferenceKeyBootcamp.swift in Sources */,
 				00C901202C6BD014001987C8 /* GeometryReaderBootcamp.swift in Sources */,
 				005C23632C8B21F000CDFCFE /* DownloadingImagesViewModel.swift in Sources */,
 				00E47E4B2CC0489400A4F83A /* ViewBuilderBootcamp.swift in Sources */,
