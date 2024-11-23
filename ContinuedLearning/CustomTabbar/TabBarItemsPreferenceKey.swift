@@ -19,15 +19,18 @@ struct TabBarItemsPreferenceKey: PreferenceKey{
 
 struct TabBarItemViewModifier: ViewModifier{
     let tab: TabBarItem
+    @Binding var selection: TabBarItem
     
     func body(content: Content) -> some View {
-        content.preference(key: TabBarItemsPreferenceKey.self, value: [tab])
+        content
+            .opacity(selection == tab ? 1.0 : 0.0)
+            .preference(key: TabBarItemsPreferenceKey.self, value: [tab])
     }
 }
 
 extension View{
-    func tabBarItem(tabs: TabBarItem)-> some View{
+    func tabBarItem(tabs: TabBarItem, selection: Binding<TabBarItem>)-> some View{
         self
-            .modifier(TabBarItemViewModifier(tab: tabs))
+            .modifier(TabBarItemViewModifier(tab: tabs, selection: selection))
     }
 }
