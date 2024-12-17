@@ -76,6 +76,7 @@
 		00E47E4B2CC0489400A4F83A /* ViewBuilderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E47E4A2CC0489400A4F83A /* ViewBuilderBootcamp.swift */; };
 		00F15BF02C79E27300A4D133 /* CodableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F15BEF2C79E27300A4D133 /* CodableBootcamp.swift */; };
 		00FC06C82C9AD3F90051BF03 /* KeypathsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FC06C72C9AD3F90051BF03 /* KeypathsBootcamp.swift */; };
+		00FCDE9A2D0DA188009A8D3C /* PropertyWrapperBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FCDE992D0DA188009A8D3C /* PropertyWrapperBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -148,6 +149,7 @@
 		00E47E4A2CC0489400A4F83A /* ViewBuilderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderBootcamp.swift; sourceTree = "<group>"; };
 		00F15BEF2C79E27300A4D133 /* CodableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBootcamp.swift; sourceTree = "<group>"; };
 		00FC06C72C9AD3F90051BF03 /* KeypathsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypathsBootcamp.swift; sourceTree = "<group>"; };
+		00FCDE992D0DA188009A8D3C /* PropertyWrapperBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapperBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -311,6 +313,7 @@
 				007D747F2C64CBA500F0AF18 /* Preview Content */,
 				0091F7702C6F575600626571 /* Sounds */,
 				00F15BEF2C79E27300A4D133 /* CodableBootcamp.swift */,
+				00FCDE992D0DA188009A8D3C /* PropertyWrapperBootcamp.swift */,
 			);
 			path = ContinuedLearning;
 			sourceTree = "<group>";
@@ -457,6 +460,7 @@
 				001FA8E72C7B3F9100BD8BD0 /* DownloadWithEdcapingBootcamp.swift in Sources */,
 				00C9011E2C6BC9C1001987C8 /* ScrollViewReaderBootcamp.swift in Sources */,
 				0069FDB22CE37877008B8305 /* CustomNavBarContainerView.swift in Sources */,
+				00FCDE9A2D0DA188009A8D3C /* PropertyWrapperBootcamp.swift in Sources */,
 				006DF3F02C8625E4007B900C /* FileManagerBootcamp.swift in Sources */,
 				0015AE8D2C973C85000F3067 /* ScrollViewPagingBootcamp.swift in Sources */,
 				005C23672C8B339900CDFCFE /* DownloadedImagesRow.swift in Sources */,
