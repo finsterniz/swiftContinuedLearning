@@ -108,13 +108,6 @@ struct PropertyWrapperBootcamp: View {
             PropertyWrapperChildView(title: $title3)
         }
     }
-    
-    private var path: URL{
-        FileManager.default
-            .urls(for: .documentDirectory, in: .userDomainMask)
-            .first!
-            .appending(path: "custom_title.txt")
-    }
 }
 
 struct PropertyWrapperChildView: View {

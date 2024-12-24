@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0015AE8D2C973C85000F3067 /* ScrollViewPagingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0015AE8C2C973C85000F3067 /* ScrollViewPagingBootcamp.swift */; };
 		001BC24C2C91E3210011BACF /* AccessibilityTextBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001BC24B2C91E3210011BACF /* AccessibilityTextBootcamp.swift */; };
+		001E7CC22D1A063300CA6A5C /* PropertyWrapper2Bootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001E7CC12D1A063200CA6A5C /* PropertyWrapper2Bootcamp.swift */; };
 		001FA8E72C7B3F9100BD8BD0 /* DownloadWithEdcapingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001FA8E62C7B3F9100BD8BD0 /* DownloadWithEdcapingBootcamp.swift */; };
 		0025E1032CC839540084938C /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0025E1022CC839540084938C /* CustomTabBarView.swift */; };
 		0025E1052CC83EA80084938C /* CustomTabBarContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0025E1042CC83EA80084938C /* CustomTabBarContainerView.swift */; };
@@ -82,6 +83,7 @@
 /* Begin PBXFileReference section */
 		0015AE8C2C973C85000F3067 /* ScrollViewPagingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewPagingBootcamp.swift; sourceTree = "<group>"; };
 		001BC24B2C91E3210011BACF /* AccessibilityTextBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityTextBootcamp.swift; sourceTree = "<group>"; };
+		001E7CC12D1A063200CA6A5C /* PropertyWrapper2Bootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapper2Bootcamp.swift; sourceTree = "<group>"; };
 		001FA8E62C7B3F9100BD8BD0 /* DownloadWithEdcapingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadWithEdcapingBootcamp.swift; sourceTree = "<group>"; };
 		0025E1022CC839540084938C /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 		0025E1042CC83EA80084938C /* CustomTabBarContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarContainerView.swift; sourceTree = "<group>"; };
@@ -314,6 +316,7 @@
 				0091F7702C6F575600626571 /* Sounds */,
 				00F15BEF2C79E27300A4D133 /* CodableBootcamp.swift */,
 				00FCDE992D0DA188009A8D3C /* PropertyWrapperBootcamp.swift */,
+				001E7CC12D1A063200CA6A5C /* PropertyWrapper2Bootcamp.swift */,
 			);
 			path = ContinuedLearning;
 			sourceTree = "<group>";
@@ -436,6 +439,7 @@
 				008096A82C67BBE500D8FB68 /* DragGestureBootcamp2.swift in Sources */,
 				00474CEC2C7938E70018EB4D /* TestSemaphore.swift in Sources */,
 				0025E1072CC848510084938C /* AppTabbarView.swift in Sources */,
+				001E7CC22D1A063300CA6A5C /* PropertyWrapper2Bootcamp.swift in Sources */,
 				004C00C32CAC84E30022B806 /* AnyTransitionBootcamp.swift in Sources */,
 				004894EC2C8771D200528BC9 /* CacheBootcamp.swift in Sources */,
 				0043F1AF2CB1EA1700D8274B /* MatchedGeometryEffectBootcamp.swift in Sources */,
