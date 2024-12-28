@@ -64,11 +64,13 @@
 		00B189622C9ECBF10026E20D /* GenSeturateColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B189612C9ECBF10026E20D /* GenSeturateColor.swift */; };
 		00B189652C9F56A90026E20D /* KeychainSwiftBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B189642C9F56A90026E20D /* KeychainSwiftBootcamp.swift */; };
 		00B189682C9F5E5F0026E20D /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 00B189672C9F5E5F0026E20D /* KeychainSwift */; };
+		00B2E0752D202C3900C0DE98 /* CustomOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B2E0742D202C3900C0DE98 /* CustomOperator.swift */; };
 		00C271DE2C6CAC4C00B613DF /* MultiSheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C271DD2C6CAC4C00B613DF /* MultiSheetBootcamp.swift */; };
 		00C271E02C6CC5F300B613DF /* MaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C271DF2C6CC5F300B613DF /* MaskBootcamp.swift */; };
 		00C9011E2C6BC9C1001987C8 /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C9011D2C6BC9C1001987C8 /* ScrollViewReaderBootcamp.swift */; };
 		00C901202C6BD014001987C8 /* GeometryReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C9011F2C6BD014001987C8 /* GeometryReaderBootcamp.swift */; };
 		00CD28E32C9343BF004B0BD0 /* AccessibilityColorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CD28E22C9343BF004B0BD0 /* AccessibilityColorBootcamp.swift */; };
+		00D5BFE12D1C260D00262444 /* SubscriptBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D5BFE02D1C260D00262444 /* SubscriptBootcamp.swift */; };
 		00D70A1B2CFA41B000807044 /* ErrorAlertBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D70A1A2CFA41B000807044 /* ErrorAlertBootcamp.swift */; };
 		00DA0EEC2CF8DF47005CF284 /* CustomBindingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DA0EEB2CF8DF47005CF284 /* CustomBindingBootcamp.swift */; };
 		00DAEFFC2CF1F4270036802E /* UIViewRepresentableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DAEFFB2CF1F4270036802E /* UIViewRepresentableBootcamp.swift */; };
@@ -138,11 +140,13 @@
 		00A9D43E2CC11E9000FC1F7B /* PreferenceKeyBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyBootcamp.swift; sourceTree = "<group>"; };
 		00B189612C9ECBF10026E20D /* GenSeturateColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenSeturateColor.swift; sourceTree = "<group>"; };
 		00B189642C9F56A90026E20D /* KeychainSwiftBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainSwiftBootcamp.swift; sourceTree = "<group>"; };
+		00B2E0742D202C3900C0DE98 /* CustomOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOperator.swift; sourceTree = "<group>"; };
 		00C271DD2C6CAC4C00B613DF /* MultiSheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSheetBootcamp.swift; sourceTree = "<group>"; };
 		00C271DF2C6CC5F300B613DF /* MaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskBootcamp.swift; sourceTree = "<group>"; };
 		00C9011D2C6BC9C1001987C8 /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
 		00C9011F2C6BD014001987C8 /* GeometryReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReaderBootcamp.swift; sourceTree = "<group>"; };
 		00CD28E22C9343BF004B0BD0 /* AccessibilityColorBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessibilityColorBootcamp.swift; sourceTree = "<group>"; };
+		00D5BFE02D1C260D00262444 /* SubscriptBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptBootcamp.swift; sourceTree = "<group>"; };
 		00D70A1A2CFA41B000807044 /* ErrorAlertBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAlertBootcamp.swift; sourceTree = "<group>"; };
 		00DA0EEB2CF8DF47005CF284 /* CustomBindingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBindingBootcamp.swift; sourceTree = "<group>"; };
 		00DAEFFB2CF1F4270036802E /* UIViewRepresentableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentableBootcamp.swift; sourceTree = "<group>"; };
@@ -294,6 +298,7 @@
 				00CD28E22C9343BF004B0BD0 /* AccessibilityColorBootcamp.swift */,
 				0061A2502C957AE500E63692 /* AlignmentGuideBootcamp.swift */,
 				00E47E4A2CC0489400A4F83A /* ViewBuilderBootcamp.swift */,
+				00D5BFE02D1C260D00262444 /* SubscriptBootcamp.swift */,
 				0061A2522C95A56B00E63692 /* VisualEffectBootcamp.swift */,
 				009D9F602CA60589007F1C01 /* ButtonStyleBootcamp.swift */,
 				004CC5382CBBBD8100ABC64E /* GenericsBootcamp.swift */,
@@ -302,6 +307,7 @@
 				0043F1AE2CB1EA1700D8274B /* MatchedGeometryEffectBootcamp.swift */,
 				0043F1B02CB1F11700D8274B /* CustomShapesBootcamp.swift */,
 				00DAEFFB2CF1F4270036802E /* UIViewRepresentableBootcamp.swift */,
+				00B2E0742D202C3900C0DE98 /* CustomOperator.swift */,
 				00E39AF02CF36A0F000E8779 /* ProtocolsBootcamp.swift */,
 				00DA0EEB2CF8DF47005CF284 /* CustomBindingBootcamp.swift */,
 				00D70A1A2CFA41B000807044 /* ErrorAlertBootcamp.swift */,
@@ -429,6 +435,7 @@
 				005C23692C8B349E00CDFCFE /* DownloadingImageView.swift in Sources */,
 				0069FDB02CE3758D008B8305 /* CustomNavbarView.swift in Sources */,
 				004CC5392CBBBD8100ABC64E /* GenericsBootcamp.swift in Sources */,
+				00D5BFE12D1C260D00262444 /* SubscriptBootcamp.swift in Sources */,
 				00C271DE2C6CAC4C00B613DF /* MultiSheetBootcamp.swift in Sources */,
 				00B189622C9ECBF10026E20D /* GenSeturateColor.swift in Sources */,
 				0069FDB42CE37A3E008B8305 /* CustomNavView.swift in Sources */,
@@ -482,6 +489,7 @@
 				007CFA5E2CC45999009141FE /* GeometryPreferenceKeyBootcamp.swift in Sources */,
 				00E47E4B2CC0489400A4F83A /* ViewBuilderBootcamp.swift in Sources */,
 				0061A2532C95A56B00E63692 /* VisualEffectBootcamp.swift in Sources */,
+				00B2E0752D202C3900C0DE98 /* CustomOperator.swift in Sources */,
 				007FB7092CB6988A00C4CCFF /* AnimatableDataBootcamp.swift in Sources */,
 				0084244E2CB538AE00C34AF1 /* CustomCurvesBootcamp.swift in Sources */,
 				007D74882C64CF6100F0AF18 /* LongPressGestureBootcamp.swift in Sources */,
